@@ -5,9 +5,10 @@ maps from 1944-1945 on the current terrain.
 
 ## Maps
 
-+ [ ] Hsinchu / Shinchiku
-+ [ ] Keelung / Kiirun
-+ [ ] Taipei / Taihoku-Matsuyama
++ [x] Hsinchu / Shinchiku
++ [x] Hualien / Karenko
++ [x] Keelung / Kiirun
++ [x] Taipei / Taihoku-Matsuyama
 
 ## License
 
