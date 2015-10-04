@@ -1,0 +1,47 @@
+{
+    "Hsinchu": {
+	"name": "Shinchiku",
+	"zoom": 15,
+	"center": {
+	    "lat": 24.8064718,
+	    "lng": 120.9690934
+	},
+	"bounds" = {
+	    "north": 24.854143871428448,
+	    "east": 121.00816787576287,
+	    "south": 24.778537234611633,
+	    "west": 120.91240176690667
+	};
+	"map": "txu-oclc-6589672.jpg"
+    },
+    "Keelung": {
+	"name": "Kiirun",
+	"zoom": 15,
+	"center": {
+	    "lat": 25.136398,
+	    "lng": 121.744435
+	},
+	"bounds": {
+	    north: 25.169179294931332,
+	    east: 121.77842456634517,
+	    south: 25.11025294046406,
+	    west: 121.72799758728024
+	},
+	"map": "txu-oclc-6594929.jpg",
+    },
+    "Taipei": {
+	"name": "Taihoku-Matsuyama",
+	"zoom": 14,
+	"center": {
+	    "lat": 25.041032,
+	    "lng": 121.540843
+	},
+	"bounds": {
+	    "north": 25.085353,
+	    "east": 121.590264,
+	    "south": 25.012915,
+            "west": 121.489174
+	},
+	"map": "txu-oclc-6565483.jpg",
+    }
+}
