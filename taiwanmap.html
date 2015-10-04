@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Taiwan maps</title>
+
+    <link rel="stylesheet" href="taiwanmap.css">
+    <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?signed_in=true"></script>
+    <script src="taiwanmap.js"></script>
+  </head>
+  <body>
+
+<!-- [START region_toolbar] -->
+<!-- Add an input button to initiate the toggle method on the overlay. -->
+    <div id ="panel">
+      <select id="location"></select>
+      <input type="button" value="Toggle visibility" onclick="toggleVisibility();"></input>
+      <label for="opacity">Opacity:</label>
+      <input type="range" id="opacity" name="opacity" min="0" max="10" value="8" onchange="updateOpacity()"></input>
+      <span>Made by <a href="https://gergely.imreh.net/">Gergely Imreh</a></span>
+    </div>
+<!-- [END region_toolbar] -->
+    <div id="map"></div>
+  </body>
+</html>
