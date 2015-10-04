@@ -14,6 +14,21 @@
 	},
 	"map": "txu-oclc-6589672.jpg"
     },
+    "Hualien": {
+	"name": "Karenko",
+	"zoom": 15,
+	"center": {
+	    "lat": 23.980530,
+	    "lng": 121.619229
+	},
+	"bounds": {
+	    "north": 24.000874,
+	    "east": 121.645815,
+	    "south": 23.960187,
+	    "west": 121.592643
+	},
+	"map": "txu-oclc-6565987.jpg"
+    },
     "Keelung": {
 	"name": "Kiirun",
 	"zoom": 15,
