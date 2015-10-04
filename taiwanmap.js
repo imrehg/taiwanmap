@@ -38,7 +38,7 @@ function initMap() {
 	console.log("Can't find!");
     }
     var location = mapData[locationName];
-    document.title = location['name'] + " / " + locationName + "/";
+    document.title = location['name'] + " / " + locationName;
 
     map = new google.maps.Map(document.getElementById('map'), {
 	zoom: location['zoom'],
