@@ -44,6 +44,21 @@
 	},
 	"map": "txu-oclc-6594929.jpg"
     },
+    "Tainan": {
+	"name": "Tainan",
+	"zoom": 15,
+	"center": {
+	    "lat": 22.979884,
+	    "lng": 120.212408
+	},
+	"bounds": {
+	    "north": 23.025502,
+	    "east": 120.242540,
+	    "south": 22.934267,
+	    "west": 120.182277
+	},
+	"map": "txu-oclc-6565942.jpg"
+    },
     "Taipei": {
 	"name": "Taihoku-Matsuyama",
 	"zoom": 14,
