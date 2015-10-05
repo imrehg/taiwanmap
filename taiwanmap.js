@@ -55,12 +55,21 @@ function initMap() {
 
     var mapImage = mapsLocation + location['map'];
 
-    historicalOverlay = new google.maps.GroundOverlay(
-	mapImage,
-	imageBounds);
-    historicalOverlay.setMap(map);
-    historicalOverlay.setOpacity(0.8);
-    
+    $.ajax({
+        url : mapImage,
+        cache: true,
+        processData : false,
+        success: function() {
+            historicalOverlay = new google.maps.GroundOverlay(
+	        mapImage,
+	        imageBounds);
+            historicalOverlay.setMap(map);
+            historicalOverlay.setOpacity(0.8);
+            console.log("Finished loading!");
+            $("#loading-spinner").hide();
+        }
+    });
+
     // Set map list dropdown
     var maplist = $("#panel > select");
     $.each(mapData, function(key, value) {
