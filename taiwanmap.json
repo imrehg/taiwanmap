@@ -29,6 +29,21 @@
 	},
 	"map": "txu-oclc-6565987.jpg"
     },
+    "Kaohsiung": {
+	"name": "Takao",
+	"zoom": 15,
+	"center": {
+	    "lat": 22.613519,
+	    "lng": 120.288922
+	},
+	"bounds": {
+	    "north": 22.650174,
+	    "east": 120.325819,
+	    "south": 22.576864,
+	    "west": 120.252025
+	},
+	"map": "txu-oclc-6565573.jpg"
+    },
     "Keelung": {
 	"name": "Kiirun",
 	"zoom": 15,
@@ -43,6 +58,21 @@
 	    "west": 121.72799758728024
 	},
 	"map": "txu-oclc-6594929.jpg"
+    },
+    "Taichung": {
+	"name": "Taichu",
+	"zoom": 15,
+	"center": {
+	    "lat": 24.135563,
+	    "lng": 120.677018
+	},
+	"bounds": {
+	    "north": 24.166409,
+	    "east": 120.702120,
+	    "south": 24.104716,
+	    "west": 120.651916
+	},
+	"map": "txu-oclc-6565748.jpg"
     },
     "Tainan": {
 	"name": "Tainan",

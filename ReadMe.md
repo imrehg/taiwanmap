@@ -7,7 +7,9 @@ maps from 1944-1945 on the current terrain.
 
 + [x] Hsinchu / Shinchiku
 + [x] Hualien / Karenko
++ [x] Kaohsiung / Takao
 + [x] Keelung / Kiirun
++ [x] Taichung / Taichu
 + [x] Tainan / Tainan
 + [x] Taipei / Taihoku-Matsuyama
 
