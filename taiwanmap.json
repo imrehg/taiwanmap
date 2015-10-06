@@ -103,5 +103,20 @@
             "west": 121.489174
 	},
 	"map": "txu-oclc-6565483.jpg"
+    },
+    "Taitung": {
+	"name": "Taito",
+	"zoom": 15,
+	"center": {
+	    "lat": 22.755991,
+	    "lng": 121.141458
+	},
+	"bounds": {
+	    "north": 22.788430,
+	    "east": 121.168449,
+	    "south": 22.723552,
+	    "west": 121.114467
+	},
+	"map": "txu-oclc-6565788.jpg"
     }
 }

@@ -10,6 +10,7 @@ maps from 1944-1945 on the current terrain.
 + [x] Kaohsiung / Takao
 + [x] Keelung / Kiirun
 + [x] Taichung / Taichu
++ [x] Taitung / Taito
 + [x] Tainan / Tainan
 + [x] Taipei / Taihoku-Matsuyama
 
