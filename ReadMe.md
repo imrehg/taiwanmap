@@ -6,6 +6,7 @@ maps from 1944-1945 on the current terrain.
 ## Maps
 
 + [x] Chiayi / Kagi
++ [x] Gangshan / Okayama
 + [x] Hsinchu / Shinchiku
 + [x] Hualien / Karenko
 + [x] Kaohsiung / Takao

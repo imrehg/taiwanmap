@@ -14,6 +14,21 @@
 	},
 	"map": "txu-oclc-6565831.jpg"
     },
+    "Gangshan": {
+	"name": "Okayama",
+	"zoom": 15,
+	"center": {
+	    "lat": 22.791613,
+	    "lng": 120.282745
+	},
+	"bounds": {
+	    "north": 22.815380,
+	    "east": 120.306880,
+	    "south": 22.761348,
+	    "west": 120.244282
+	},
+	"map": "txu-oclc-6565881.jpg"
+    },
     "Hsinchu": {
 	"name": "Shinchiku",
 	"zoom": 15,
