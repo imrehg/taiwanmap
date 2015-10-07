@@ -163,5 +163,20 @@
 	    "west": 121.114467
 	},
 	"map": "txu-oclc-6565788.jpg"
+    },
+    "Zhunan": {
+	"name": "Chikunan",
+	"zoom": 15,
+	"center": {
+	    "lat": 24.682680,
+	    "lng": 120.878507
+	},
+	"bounds": {
+	    "north": 24.701264,
+	    "east": 120.898810,
+	    "south": 24.664096,
+	    "west": 120.858204
+	},
+	"map": "txu-oclc-6568672.jpg"
     }
 }

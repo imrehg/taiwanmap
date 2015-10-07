@@ -16,6 +16,7 @@ maps from 1944-1945 on the current terrain.
 + [x] Taitung / Taito
 + [x] Tainan / Tainan
 + [x] Taipei / Taihoku-Matsuyama
++ [x] Zhunan / Chikunan
 
 ## License
 
