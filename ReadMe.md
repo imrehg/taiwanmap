@@ -11,6 +11,7 @@ maps from 1944-1945 on the current terrain.
 + [x] Hualien / Karenko
 + [x] Kaohsiung / Takao
 + [x] Keelung / Kiirun
++ [x] Penghu / Mako
 + [x] Taichung / Taichu
 + [x] Taitung / Taito
 + [x] Tainan / Tainan

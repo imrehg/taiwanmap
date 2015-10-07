@@ -89,6 +89,21 @@
 	},
 	"map": "txu-oclc-6594929.jpg"
     },
+    "Penghu": {
+	"name": "Mako",
+	"zoom": 15,
+	"center": {
+	    "lat": 23.561259,
+	    "lng": 119.571079
+	},
+	"bounds": {
+	    "north": 23.578534,
+	    "east": 119.594926,
+	    "south": 23.533307,
+	    "west": 119.551361
+	},
+	"map": "txu-oclc-6565912.jpg"
+    },
     "Taichung": {
 	"name": "Taichu",
 	"zoom": 15,
