@@ -164,6 +164,21 @@
 	},
 	"map": "txu-oclc-6565788.jpg"
     },
+    "Yilan": {
+	"name": "Giran",
+	"zoom": 16,
+	"center": {
+	    "lat": 24.755859,
+	    "lng": 121.752125
+	},
+	"bounds": {
+	    "north": 24.767429,
+	    "east": 121.764275,
+	    "south": 24.716010,
+	    "west": 121.727457
+	},
+	"map": "txu-oclc-6572504.jpg"
+    },
     "Zhunan": {
 	"name": "Chikunan",
 	"zoom": 15,
