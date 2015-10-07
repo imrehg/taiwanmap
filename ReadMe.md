@@ -5,6 +5,7 @@ maps from 1944-1945 on the current terrain.
 
 ## Maps
 
++ [x] Beigang / Hokko
 + [x] Chiayi / Kagi
 + [x] Gangshan / Okayama
 + [x] Hsinchu / Shinchiku

@@ -1,4 +1,19 @@
 {
+    "Beigang": {
+	"name": "Hokkō",
+	"zoom": 16,
+	"center": {
+	    "lat": 23.567472,
+	    "lng": 120.300027
+	},
+	"bounds": {
+	    "north": 23.582927,
+	    "east": 120.316875,
+	    "south": 23.552017,
+	    "west": 120.283180
+	},
+	"map": "txu-oclc-6572552.jpg"
+    },
     "Chiayi": {
 	"name": "Kagi",
 	"zoom": 15,
