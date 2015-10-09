@@ -14,6 +14,21 @@
 	},
 	"map": "txu-oclc-6572552.jpg"
     },
+    "Changhua": {
+	"name": "Shōka",
+	"zoom": 16,
+	"center": {
+	    "lat": 24.080933,
+	    "lng": 120.541035
+	},
+	"bounds": {
+	    "north": 24.094083,
+	    "east": 120.561116,
+	    "south": 24.058786,
+	    "west": 120.530759
+	},
+	"map": "txu-oclc-6595095.jpg"
+    },
     "Chiayi": {
 	"name": "Kagi",
 	"zoom": 15,
