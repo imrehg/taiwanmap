@@ -24,6 +24,7 @@ maps from 1944-1945 on the current terrain.
 + [x] Taipei / Taihoku-Matsuyama
 + [x] Yilan / Giran
 + [x] Zhunan / Chikunan
++ [x] Zuoying / Toshien
 
 ## License
 

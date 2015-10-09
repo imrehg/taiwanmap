@@ -283,5 +283,20 @@
 	    "west": 120.858204
 	},
 	"map": "txu-oclc-6568672.jpg"
+    },
+    "Zuoying": {
+	"name": "Toshien",
+	"zoom": 15,
+	"center": {
+	    "lat": 22.688822,
+	    "lng": 120.288953
+	},
+	"bounds": {
+	    "north": 22.722679,
+	    "east": 120.326737,
+	    "south": 22.654965,
+	    "west": 120.251169
+	},
+	"map": "txu-oclc-6594558.jpg"
     }
 }
