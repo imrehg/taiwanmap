@@ -26,6 +26,7 @@ maps from 1944-1945 on the current terrain.
 + [x] Tainan / Tainan
 + [x] Taipei / Taihoku-Matsuyama
 + [x] Taoyuan / Toen
++ [x] Xiluo / Seira
 + [x] Yilan / Giran
 + [x] Zhunan / Chikunan
 + [x] Zuoying / Toshien

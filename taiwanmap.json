@@ -314,6 +314,21 @@
 	},
 	"map": "txu-oclc-6594702.jpg"
     },
+    "Xiluo": {
+	"name": "Seira",
+	"zoom": 16,
+	"center": {
+	    "lat": 23.800259,
+	    "lng": 120.457684
+	},
+	"bounds": {
+	    "north": 23.811879,
+	    "east": 120.478131,
+	    "south": 23.775999,
+	    "west": 120.431083
+	},
+	"map": "txu-oclc-6595050.jpg"
+    },
     "Yilan": {
 	"name": "Giran",
 	"zoom": 16,
