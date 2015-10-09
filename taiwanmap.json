@@ -134,6 +134,21 @@
 	},
 	"map": "txu-oclc-6572578.jpg"
     },
+    "Su'ao": {
+	"name": "Suo",
+	"zoom": 15,
+	"center": {
+	    "lat": 24.588738,
+	    "lng": 121.864643
+	},
+	"bounds": {
+	    "north": 24.613692,
+	    "east": 121.889241,
+	    "south": 24.563784,
+	    "west": 121.840044
+	},
+	"map": "txu-oclc-6585566.jpg"
+    },
     "Taichung": {
 	"name": "Taichu",
 	"zoom": 15,
