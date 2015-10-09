@@ -269,6 +269,21 @@
 	},
 	"map": "txu-oclc-6565788.jpg"
     },
+    "Taoyuan": {
+	"name": "Tōen",
+	"zoom": 16,
+	"center": {
+	    "lat": 24.990117,
+	    "lng": 121.313195
+	},
+	"bounds": {
+	    "north": 25.003429,
+	    "east": 121.331141,
+	    "south": 24.981204,
+	    "west": 121.300983
+	},
+	"map": "txu-oclc-6594702.jpg"
+    },
     "Yilan": {
 	"name": "Giran",
 	"zoom": 16,
