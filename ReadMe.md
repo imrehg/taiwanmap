@@ -13,6 +13,7 @@ maps from 1944-1945 on the current terrain.
 + [x] Kaohsiung / Takao
 + [x] Keelung / Kiirun
 + [x] Penghu / Mako
++ [x] Pingtung / Heito
 + [x] Taichung / Taichu
 + [x] Taitung / Taito
 + [x] Tainan / Tainan

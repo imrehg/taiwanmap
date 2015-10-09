@@ -119,6 +119,21 @@
 	},
 	"map": "txu-oclc-6565912.jpg"
     },
+    "Pingtung": {
+	"name": "Heito",
+	"zoom": 15,
+	"center": {
+	    "lat": 22.671091,
+	    "lng": 120.486160
+	},
+	"bounds": {
+	    "north": 22.691962,
+	    "east": 120.511595,
+	    "south": 22.645706,
+	    "west": 120.446819
+	},
+	"map": "txu-oclc-6572578.jpg"
+    },
     "Taichung": {
 	"name": "Taichu",
 	"zoom": 15,
