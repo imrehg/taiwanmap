@@ -32,7 +32,7 @@ var historicalOverlay,
     map;
 
 function initMap() {
-    var locationName = querystring['location'];
+    var locationName = decodeURIComponent(querystring['location']);
     if (!mapData[locationName]) {
         locationName = 'Taipei';
 	console.log("Can't find!");
@@ -73,12 +73,12 @@ function initMap() {
     // Set map list dropdown
     var maplist = $("#panel > select");
     $.each(mapData, function(key, value) {
-	maplist.append($("<option></option>").attr("value",key).text(value['name'] + " / " + key));
+        maplist.append($("<option></option>").attr("value",key).text(value['name'] + " / " + key));
     });
     maplist.val(locationName);
     maplist.change(function() {
-	var newQuery = $.param({ location: maplist.val() });
-	window.location.href = window.location.origin + window.location.pathname + "?" + newQuery;
+        var newQuery = $.param({ location: encodeURIComponent(maplist.val()) });
+        window.location.href = window.location.origin + window.location.pathname + "?" + newQuery;
     });
 }
 
