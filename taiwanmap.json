@@ -29,6 +29,21 @@
 	},
 	"map": "txu-oclc-6565831.jpg"
     },
+    "Donggang": {
+	"name": "Tōkō",
+	"zoom": 15,
+	"center": {
+	    "lat": 22.456109,
+	    "lng": 120.465146
+	},
+	"bounds": {
+	    "north": 22.477140,
+	    "east": 120.489859,
+	    "south": 22.435078,
+	    "west": 120.440434
+	},
+	"map": "txu-oclc-6594628.jpg"
+    },
     "Fengshan": {
 	"name": "Hozan",
 	"zoom": 15,
