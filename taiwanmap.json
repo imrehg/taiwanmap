@@ -179,6 +179,21 @@
 	},
 	"map": "txu-oclc-6594356.jpg"
     },
+    "Luodong": {
+	"name": "Rato",
+	"zoom": 16,
+	"center": {
+	    "lat": 24.677737,
+	    "lng": 121.772917
+	},
+	"bounds": {
+	    "north": 24.690045,
+	    "east": 121.790930,
+	    "south": 24.662130,
+	    "west": 121.757590
+	},
+	"map": "txu-oclc-6594991.jpg"
+    },
     "Penghu": {
 	"name": "Mako",
 	"zoom": 15,

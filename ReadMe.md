@@ -17,6 +17,7 @@ maps from 1944-1945 on the current terrain.
 + [x] Kaohsiung / Takao
 + [x] Keelung / Kiirun
 + [x] Lukang / Rokko
++ [x] Luodong / Rato
 + [x] Penghu / Mako
 + [x] Pingtung / Heito
 + [x] Su'ao / Suo
