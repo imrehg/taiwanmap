@@ -11,6 +11,7 @@ maps from 1944-1945 on the current terrain.
 + [x] Gangshan / Okayama
 + [x] Hsinchu / Shinchiku
 + [x] Hualien / Karenko
++ [x] Jiadong / Kato
 + [x] Kaohsiung / Takao
 + [x] Keelung / Kiirun
 + [x] Lukang / Rokko

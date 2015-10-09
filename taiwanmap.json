@@ -89,6 +89,21 @@
 	},
 	"map": "txu-oclc-6565987.jpg"
     },
+    "Jiadong": {
+	"name": "Kato",
+	"zoom": 15,
+	"center": {
+	    "lat": 22.416744,
+	    "lng": 120.567469
+	},
+	"bounds": {
+	    "north": 22.438136,
+	    "east": 120.594008,
+	    "south": 22.395351,
+	    "west": 120.540929
+	},
+	"map": "txu-oclc-6594498.jpg"
+    },
     "Kaohsiung": {
 	"name": "Takao",
 	"zoom": 15,
