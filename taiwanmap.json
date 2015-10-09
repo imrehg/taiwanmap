@@ -29,6 +29,21 @@
 	},
 	"map": "txu-oclc-6565831.jpg"
     },
+    "Danshui": {
+	"name": "Tansui",
+	"zoom": 16,
+	"center": {
+	    "lat": 25.169187,
+	    "lng": 121.444258
+	},
+	"bounds": {
+	    "north": 25.187408,
+	    "east": 121.456245,
+	    "south": 25.149936,
+	    "west": 121.423202
+	},
+	"map": "txu-oclc-6594794.jpg"
+    },
     "Donggang": {
 	"name": "Tōkō",
 	"zoom": 15,
