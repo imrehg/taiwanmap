@@ -29,6 +29,21 @@
 	},
 	"map": "txu-oclc-6565831.jpg"
     },
+    "Fengshan": {
+	"name": "Hozan",
+	"zoom": 15,
+	"center": {
+	    "lat": 22.624457,
+	    "lng": 120.361039
+	},
+	"bounds": {
+	    "north": 22.643112,
+	    "east": 120.385662,
+	    "south": 22.553404,
+	    "west": 120.320724
+	},
+	"map": "txu-oclc-6594432.jpg"
+    },
     "Gangshan": {
 	"name": "Okayama",
 	"zoom": 15,

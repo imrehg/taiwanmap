@@ -7,6 +7,7 @@ maps from 1944-1945 on the current terrain.
 
 + [x] Beigang / Hokko
 + [x] Chiayi / Kagi
++ [x] Fengshan / Hozan
 + [x] Gangshan / Okayama
 + [x] Hsinchu / Shinchiku
 + [x] Hualien / Karenko
