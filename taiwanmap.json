@@ -104,6 +104,21 @@
 	},
 	"map": "txu-oclc-6594929.jpg"
     },
+    "Lukang": {
+	"name": "Rokko",
+	"zoom": 16,
+	"center": {
+	    "lat": 24.054759,
+	    "lng": 120.431952
+	},
+	"bounds": {
+	    "north": 24.066839,
+	    "east": 120.447281,
+	    "south": 24.038779,
+	    "west": 120.415285
+	},
+	"map": "txu-oclc-6594356.jpg"
+    },
     "Penghu": {
 	"name": "Mako",
 	"zoom": 15,
