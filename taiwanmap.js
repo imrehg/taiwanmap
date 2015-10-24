@@ -1,21 +1,30 @@
 var overlay,
     mapData,
-    querystring = [],
-    hash;
+    params = {};
 
 /* Store maps in subdirectory */
 var mapsLocation = 'maps/';
 
-/* Get query string */
-var q = document.URL.split('?')[1];
-if(q != undefined){
-    q = q.split('&');
-    for(var i = 0; i < q.length; i++){
-	hash = q[i].split('=');
-	querystring.push(hash[1]);
-		    querystring[hash[0]] = hash[1];
-    }
-}
+var getParameters = function() {
+    var query,
+        vars;
+    /* params */
+    query = window.location.search.substring(1);
+    vars = query.split("&");
+    vars.forEach(function(item) {
+        var pair = item.split("=");
+        params[pair[0]] = pair[1];
+    });
+    /* hash */
+    query = window.location.hash.substring(1);
+    if (query.length > 0) {
+        vars = query.split("&");
+        vars.forEach(function(item) {
+            var pair = item.split("=");
+            params[pair[0]] = pair[1];
+        });
+    };
+};
 
 $.getJSON( "taiwanmap.json", function( data ) {
     console.log(data);
@@ -27,7 +36,8 @@ var historicalOverlay,
     map;
 
 function initMap() {
-    var locationName = decodeURIComponent(querystring['location']);
+    getParameters();
+    var locationName = params['location'];
     if (!mapData[locationName]) {
         locationName = 'Taipei';
 	console.log("Can't find!");
@@ -35,11 +45,21 @@ function initMap() {
     var location = mapData[locationName];
     document.title = location['name'] + " / " + locationName;
 
-    map = new google.maps.Map(document.getElementById('map'), {
-	zoom: location['zoom'],
-	center: {lat: location['center']['lat'], lng: location['center']['lng']},
-	mapTypeId: google.maps.MapTypeId.SATELLITE
-    });
+    if (params['lat'] && params['lng'] && params['z']) {
+        /* load at requested coordinates */
+        map = new google.maps.Map(document.getElementById('map'), {
+	    zoom: parseInt(params['z']),
+	    center: {lat: parseFloat(params['lat']), lng: parseFloat(params['lng'])},
+	    mapTypeId: google.maps.MapTypeId.SATELLITE
+        });
+    } else {
+        /* load at default coordinates */
+        map = new google.maps.Map(document.getElementById('map'), {
+	    zoom: location['zoom'],
+	    center: {lat: location['center']['lat'], lng: location['center']['lng']},
+	    mapTypeId: google.maps.MapTypeId.SATELLITE
+        });
+    };
     
     var imageBounds = {
         north: location['bounds']['north'],
@@ -74,6 +94,13 @@ function initMap() {
     maplist.change(function() {
         var newQuery = $.param({ location: encodeURIComponent(maplist.val()) });
         window.location.href = window.location.origin + window.location.pathname + "?" + newQuery;
+    });
+
+    /* Update location bar as map is moved around, so it can be shared */
+    google.maps.event.addListener(map, 'idle', function() {
+        document.location.hash = "lat="+this.getCenter().lat().toFixed(6)+
+                        "&lng="+this.getCenter().lng().toFixed(6)+
+                        "&z="+this.getZoom();
     });
 }
 
