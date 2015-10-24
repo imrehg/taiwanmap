@@ -1,6 +1,5 @@
 var overlay,
     mapData,
-    transparency = false,
     querystring = [],
     hash;
 
@@ -16,10 +15,6 @@ if(q != undefined){
 	querystring.push(hash[1]);
 		    querystring[hash[0]] = hash[1];
     }
-}
-
-if (querystring['transparent'] === 'true') {
-    transparency = true;
 }
 
 $.getJSON( "taiwanmap.json", function( data ) {
