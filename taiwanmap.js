@@ -13,7 +13,7 @@ var getParameters = function() {
     vars = query.split("&");
     vars.forEach(function(item) {
         var pair = item.split("=");
-        params[pair[0]] = pair[1];
+        params[pair[0]] = decodeURI(pair[1]);
     });
     /* hash */
     query = window.location.hash.substring(1);
@@ -21,7 +21,7 @@ var getParameters = function() {
         vars = query.split("&");
         vars.forEach(function(item) {
             var pair = item.split("=");
-            params[pair[0]] = pair[1];
+            params[pair[0]] = decodeURI(pair[1]);
         });
     };
 };
